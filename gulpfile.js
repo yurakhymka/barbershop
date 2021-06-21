@@ -99,5 +99,5 @@ function watchChanges() {
   gulp.watch(path.watch.favicon, favicon);
 }
 
-exports.default = gulp.series(watchChanges);
+exports.default = gulp.series(prod, watchChanges);
 exports.prod = gulp.series(prod);
