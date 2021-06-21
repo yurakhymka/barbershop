@@ -1,0 +1,21 @@
+.address-info__block:not(:last-child) {
+    margin-bottom: 22px;
+}
+
+.address-info__controls {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.address-info__controls {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-column-gap: 20px;
+}
+
+@media screen and (max-width: 479px) {
+    .address-info__controls {
+        grid-template-columns: 1fr 1fr;
+    }
+}

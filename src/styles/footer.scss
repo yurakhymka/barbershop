@@ -1,0 +1,36 @@
+.footer {
+    background: rgb(37, 37, 37);
+    padding: 58px 0;
+}
+
+.footer__inner {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+}
+
+.footer__address-info {
+    grid-column: 1/6;
+}
+
+.footer__social {
+    grid-column: 6/8;
+}
+
+.footer__developer {
+    grid-column: 11/13;
+}
+
+@media screen and (max-width: 960px) {
+    .footer__address-info {
+        grid-column: 1/13;
+    }
+
+    .footer__social {
+        grid-column: 1/7;
+    }
+    
+    .footer__developer {
+        grid-column: 7/13;
+    }
+}

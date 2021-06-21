@@ -1,0 +1,29 @@
+.modal {
+    position: fixed;
+    width: 460px;
+    max-width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background: #fff;
+    display: none;
+    &.open {
+        display: block;
+    }
+}
+
+.modal_xl {
+    width: 775px;
+}
+
+.modal__close {
+    position: absolute;
+    right: -33px;
+    top: 6px;
+    font-size: 25px;
+}
+
+.modal__close-link {
+    color: #fff;
+}

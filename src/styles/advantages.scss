@@ -1,0 +1,28 @@
+.advantages__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .advantages__wrapper {
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .advantages__item {
+        grid-column: 3/11;
+    }
+}
+
+.advantages__title {
+    padding-bottom: 14px;
+}
+
+.advantages__figure {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    margin-bottom: 29px;
+}

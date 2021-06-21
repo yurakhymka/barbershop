@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+@import '../../node_modules/normalize.css/normalize.css';
+@import './reset.css';
+
+@import './title.scss';
+@import './text.scss';
+@import './logo-advantages.scss';
+@import './button.scss';
+@import './advantages.scss';
+@import './card.scss';
+@import './menu.scss';
+@import './news.scss';
+@import './slider.scss';
+@import './footer.scss';
+@import './modal.scss';
+@import './socia.scss';
+@import './form.scss';
+@import './sign-in.scss';
+@import './header.scss';
+@import './address-info.scss';
+@import './address-map.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    background: url('./../img/bg-photo.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 65px;
+}
+
+.main-content__news-photo {
+    margin-bottom: 36px;
+}
+
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}

@@ -1,0 +1,15 @@
+.sign-in {
+    padding: 0 24px 0 0;
+}
+
+.sign-in__link {
+    text-decoration: none;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.sign-in__sign {
+    opacity: 0.3;
+    margin-right: 16px;
+}

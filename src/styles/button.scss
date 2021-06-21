@@ -1,0 +1,20 @@
+.button {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 15px;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+        opacity: 0.8;
+    }
+}

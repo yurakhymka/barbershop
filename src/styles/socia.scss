@@ -1,0 +1,22 @@
+.social__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.social__button {
+    width: 42px;
+    height: 42px;
+    line-height: inherit;
+    display: block;
+    background: #000;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+    &:hover {
+        opacity: 0.8;
+    }
+    &:last-child() {
+        margin-right: 0;
+    }
+}

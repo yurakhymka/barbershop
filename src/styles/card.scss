@@ -1,0 +1,45 @@
+.card {
+    background: rgb(246, 243, 240);
+    padding: 45px 0 50px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    position: relative;
+}
+
+.card__delimiter-bg {
+    position: absolute;
+    background: url('../img/card-delimiter.png')no-repeat center;
+    background-size: cover;
+    width: 8px;
+    height: 278px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card__left {
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+.card__right {
+    grid-column-start: 8;
+    grid-column-end: 12;
+}
+
+@media screen and (max-width: 960px) {
+    .card__left,
+    .card__right {
+        grid-column-start: 2;
+        grid-column-end: 12;
+    }
+
+    .card__delimiter-bg {
+        display: none;
+    } 
+}
+
+.card__header {
+    margin-bottom: 5px;
+}

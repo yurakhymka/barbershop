@@ -1,0 +1,19 @@
+.news__wrapper {
+    margin-bottom: 29px;
+}
+
+.news_article:not(:last-child) {
+    margin-bottom: 21px;
+}
+
+.news__control {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 20px;
+}
+
+@media screen and (max-width: 479px) {
+    .news__control {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,29 @@
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.text_white {
+    color: #fff;
+}
+
+.text_underline {
+    text-decoration: underline;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_lowercase {
+    text-transform: lowercase;
+}
+
+.text_mb {
+    margin-bottom: 15px;
+}
